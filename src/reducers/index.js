@@ -1,8 +1,7 @@
 import { combineReducers } from 'redux'
-import counter from './counter'
-import QusList from './qusList'
+import Menu from './menu';
+import TopicList from './topiclist';
 
 export default combineReducers({
-  counter,
-  QusList
+  Menu,TopicList
 })
