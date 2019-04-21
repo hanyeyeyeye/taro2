@@ -65,5 +65,16 @@ https://github.com/NervJS/taro/issues/2224
 具体可参考：https://github.com/NervJS/taro/issues/2665
 
 
+### 3taro-ui样式未生效问题
+
+ 按照官方步骤我使用在app.js里全局引入 `import '_taro-ui@2.1.0@taro-ui/dist/style/index.scss`
+ 结果并未生效，仔细查看文档之后才知道是，taroui的样式对微信基础库是有版本要求的，必须在v2.2.3 以上，所以在开发工具上一改就好了。
+ 
+### 4启动总是报错
+
+基本上是什么 third process 什么的，之前我在另外一台电脑上运行都是没有问题的，后来把开发工具详情里面的勾选项去掉，然后还是不行，但是中断服务，重新编译后又好了。有时候不得不说，这个开发工具还是不那么好用。。
+ 
+
+
     
  
