@@ -28,6 +28,7 @@ import './menu.less';
 
 export default class Menu extends Component{
   showDrawer (){
+    
     this.props.showMenu&&this.props.showMenu();
   }
 
