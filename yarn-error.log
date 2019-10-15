@@ -1,29 +1,29 @@
 Arguments: 
-  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add _taro-ui@2.1.0@taro-ui/dist/weapp/index.css --silent --no-progress
+  /usr/local/bin/node /usr/local/bin/yarn add _taro-ui@2.1.0@taro-ui/dist/style/index.scss --silent --no-progress
 
 PATH: 
-  D:\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;F:\hyworkspace\taro_work\taro2\node_modules\.bin;D:\nodejs\node_global\node_modules\cnpm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;F:\hyworkspace\taro_work\taro2\node_modules\.bin;C:\Cadence\SPB_Data\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Cadence\SPB_Data\bin;C:\adb\platform-tools_r22-windows\platform-tools;D:\nodejs;D:\Git\cmd;C:\Cadence\Cadence_SPB_16.6-2015\openaccess\bin\win32\opt;C:\Cadence\Cadence_SPB_16.6-2015\tools\capture;C:\Cadence\Cadence_SPB_16.6-2015\tools\pspice;C:\Cadence\Cadence_SPB_16.6-2015\tools\specctra\bin;C:\Cadence\Cadence_SPB_16.6-2015\tools\fet\bin;C:\Cadence\Cadence_SPB_16.6-2015\tools\libutil\bin;C:\Cadence\Cadence_SPB_16.6-2015\tools\bin;C:\Cadence\Cadence_SPB_16.6-2015\tools\pcb\bin;C:\Cadence\Cadence_SPB_16.6-2015\tools\pspice\library;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;D:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;D:\Microsoft VS Code\bin;D:\nodejs\node_global;C:\Users\Administrator\AppData\Roaming\npm;C:\Windows\System32;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/rongfeng1004/workspace/tano/taroPro/node_modules/.bin:/Users/rongfeng1004/workspace/tano/taroPro/node_modules/.bin:/Users/rongfeng1004/.config/yarn/link/node_modules/.bin:/Users/rongfeng1004/workspace/tano/taroPro/node_modules/.bin:/Users/rongfeng1004/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/Users/rongfeng1004/.rvm/gems/ruby-2.2.2/bin:/Users/rongfeng1004/.rvm/gems/ruby-2.2.2@global/bin:/Users/rongfeng1004/.rvm/rubies/ruby-2.2.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rongfeng1004/.rvm/bin:/Users/rongfeng1004/Downloads/apache-maven-3.5.4/bin
 
 Yarn version: 
-  1.15.2
+  1.9.4
 
 Node version: 
-  10.15.3
+  10.8.0
 
 Platform: 
-  win32 x64
+  darwin x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/_taro-ui: Not found
-      at Request.params.callback [as _callback] (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:66058:18)
-      at Request.self.callback (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:129541:22)
-      at Request.emit (events.js:189:13)
-      at Request.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:130513:10)
-      at Request.emit (events.js:189:13)
-      at IncomingMessage.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:130435:12)
-      at Object.onceWrapper (events.js:277:13)
-      at IncomingMessage.emit (events.js:194:15)
-      at endReadableNT (_stream_readable.js:1125:12)
+  Error: https://registry.yarnpkg.com/_taro-ui: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
       at process._tickCallback (internal/process/next_tick.js:63:19)
 
 npm manifest: 

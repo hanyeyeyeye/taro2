@@ -68,7 +68,7 @@ const config = {
     }
   },
   h5: {
-    esnextModules: ['_taro-ui@2.1.0@taro-ui'],
+    esnextModules: ['taro-ui'],
     publicPath: '/',
     staticDirectory: 'static',
     module: {
@@ -92,7 +92,7 @@ const config = {
         }
       }
     },
-    
+
   }
 }
 
